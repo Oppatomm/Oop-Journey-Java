@@ -25,6 +25,7 @@ class Rectangle extends Shape {
     }
 }
 
+
 class Circle extends Shape {
     private double radius;
 
@@ -42,6 +43,7 @@ class Circle extends Shape {
         System.out.printf("Circle : %.2f\n" , circleArea);
     }
 }
+
 
 public class Calculate_the_Area_of_Geometric_Shapes_Using_Inheritance {
     public static void main (String [] args) {
